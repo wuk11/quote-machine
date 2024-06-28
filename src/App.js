@@ -418,8 +418,8 @@ function App() {
     }
   ]
 
-  const [quote, setQuote] = useState("")
-  const [author, setAuthor] = useState("")
+  const [quote, setQuote] = useState("The best time to plant a tree was 20 years ago. The second best time is now.")
+  const [author, setAuthor] = useState("Chinese Proverb")
   const [quotesArr, setQuotesArr] = useState(null)
   const [bgColor, setBgColor] = useState('#282c34')
 
